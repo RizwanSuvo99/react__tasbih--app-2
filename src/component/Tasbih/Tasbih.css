@@ -1,0 +1,73 @@
+.tasbih {
+  text-align: center;
+  padding: 3rem 1rem 5rem 1rem;
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #64c6ff;
+  color: #2d3030;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasbih h1 {
+  margin-bottom: 2rem;
+}
+
+.tasbih__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.tasbih__box {
+  background-color: #2d3030;
+  color: #fff;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 5rem;
+  border-radius: 1rem;
+}
+
+.tasbih__btns {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-block: 1rem 2rem;
+  cursor: pointer;
+}
+
+.tasbih__btns > * {
+  display: inline-block;
+}
+
+.tasbih > h1 {
+  font-size: 3rem;
+}
+
+.tasbih__counter h1 {
+  font-size: 4rem;
+}
+
+.icon {
+  color: #ffe373;
+  transition: 0.2s transform ease;
+}
+
+.icon2 {
+  color: #64c6ff;
+  transition: 0.2s transform ease;
+}
+
+.icon:hover {
+  transform: translateY(-3px);
+}
+.icon2:hover {
+  transform: translateY(3px);
+}
